@@ -17,10 +17,16 @@ main {
   min-height: 100dvh;
   width: 100%;
   padding: 1em;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 img {
   width: 100%;
+  max-width: 350px;
+  height: 260px;
 }
 
 a {
